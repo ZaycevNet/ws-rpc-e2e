@@ -1,0 +1,23 @@
+{
+  "name": "maybe-rmp",
+  "version": "1.0.0",
+  "description": "WebSocket RPC?",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start:consumer": "node ./dist/test/consumer.js",
+    "start:client": "node ./dist/test/client.js"
+  },
+  "author": "Alex Zaycev",
+  "license": "ISC",
+  "dependencies": {
+    "cryptico": "^1.0.2",
+    "uuid": "^8.2.0",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {
+    "@types/ws": "^7.2.6",
+    "@types/uuid": "^8.0.0",
+    "typescript": "^3.9.6"
+  }
+}
